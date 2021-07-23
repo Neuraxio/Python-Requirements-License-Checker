@@ -7,9 +7,9 @@ To add the license checker to your project, do the following when your console i
 ```bash
 git remote add license-checker github.com/Neuraxio/Python-Requirements-License-Checker
 git checkout license-checker
-git pull origin license-checker license-checker
+git pull license-checker action
 git checkout master
-git merge license-checker
+git merge action
 git push origin master
 ```
 ## Example
