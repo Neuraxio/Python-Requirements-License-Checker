@@ -12,3 +12,6 @@ git checkout master
 git merge license-checker
 git push origin master
 ```
+## Example
+
+You can see an example of the action in the example branch. Do not use the python python_license_checker.yml file in that branch because it has been modified to execute on push and pull request on that specific branch.
