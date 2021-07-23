@@ -1,10 +1,10 @@
 on:
   push:
     branches:
-    - main
+    - examples
   pull_request:
     branches:
-    - main
+    - examples
 jobs:
   check-license:
     runs-on: ubuntu-latest
